@@ -1,0 +1,83 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700|Staatliches|Merriweather+Sans");
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+h1, h2{
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 24px;
+  color: #414141;
+}
+
+body {
+  background-color: rgb(230, 230, 230);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+#avatar{
+  border-radius: 50%;
+  border: 1px solid #F4F4F4;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+a {
+  text-decoration: none;
+  color: #414141;
+}
+
+.container{
+  text-align: center;
+  margin: 0 auto;
+  background-image: url('images/computer.jpeg');
+  background-size: cover;
+}
+
+.img-back-opacity{
+  background-color: rgba(240, 240, 240, 0.7);
+}
+
+.card{
+  padding: 24px;
+
+}
+
+.btn-yellow{
+  background-color: #DE9845;
+  color: #F4F4F4;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.btn-yellow:hover{
+  background-color: #0E0E0E;
+  color: #F4CE62;
+}
+
+.icon-inline li{
+  padding: 16px;
+  display: inline;
+  list-style: none;
+}
+
+ul{
+  padding-left: 0;
+}
+.fab{
+  font-size: 20px;
+}
